@@ -47,7 +47,7 @@ public class CrudSpringApplication {
             c6.setCategory("back-end");
 
             Course c7 = new Course();
-            c7.setName("Stelve");
+            c7.setName("Svelte");
             c7.setCategory("front-end");
 
             courseRepository.save(c1);
